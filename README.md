@@ -9,6 +9,7 @@ Swift项目中引用Objective-C的framework：
 
 2. 在framework所在目录下，建立module.modulemap文件，其内容是：
 
+注意：framework和module.modulemap一定要在同一目录下，否则会找不到。
 
 <pre><code> 
 module ObjcFramework {
